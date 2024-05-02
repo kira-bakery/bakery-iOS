@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "naveridlogin-ios-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kyungkoo/naveridlogin-ios-sp",
+      "state" : {
+        "revision" : "85b08cf3be9bfd84df09437c64bc621c93336770",
+        "version" : "4.1.5"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -10,7 +10,13 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello SwiftUI!")
+        VStack{
+            Text("KIRA")
+            Button(action: {
+                print("AA")
+            }, label:{ Image("kakaoLogin")
+            })
+        }
     }
 }
 

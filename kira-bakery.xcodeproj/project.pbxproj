@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */; };
 		CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */; };
 		CDDB37912BE36225005FC526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37902BE36225005FC526 /* ContentView.swift */; };
 		CDDB37932BE36227005FC526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37922BE36227005FC526 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = "kira-bakery";
+			packageProductDependencies = (
+				CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */,
+			);
 			productName = "kira-bakery";
 			productReference = CDDB378B2BE36225005FC526 /* kira-bakery.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +226,9 @@
 				Base,
 			);
 			mainGroup = CDDB37822BE36225005FC526;
+			packageReferences = (
+				CD77A3142BE378B00067CE63 /* XCRemoteSwiftPackageReference "naveridlogin-ios-sp" */,
+			);
 			productRefGroup = CDDB378C2BE36225005FC526 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD77A3142BE378B00067CE63 /* XCRemoteSwiftPackageReference "naveridlogin-ios-sp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kyungkoo/naveridlogin-ios-sp";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD77A3142BE378B00067CE63 /* XCRemoteSwiftPackageReference "naveridlogin-ios-sp" */;
+			productName = "naveridlogin-ios-sp";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */ = {
