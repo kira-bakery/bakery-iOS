@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */; };
+		CD77A3192BE3836D0067CE63 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3182BE3836D0067CE63 /* KakaoSDK */; };
 		CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */; };
 		CDDB37912BE36225005FC526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37902BE36225005FC526 /* ContentView.swift */; };
 		CDDB37932BE36227005FC526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37922BE36227005FC526 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */,
+				CD77A3192BE3836D0067CE63 /* KakaoSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +155,7 @@
 			name = "kira-bakery";
 			packageProductDependencies = (
 				CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */,
+				CD77A3182BE3836D0067CE63 /* KakaoSDK */,
 			);
 			productName = "kira-bakery";
 			productReference = CDDB378B2BE36225005FC526 /* kira-bakery.app */;
@@ -228,6 +231,7 @@
 			mainGroup = CDDB37822BE36225005FC526;
 			packageReferences = (
 				CD77A3142BE378B00067CE63 /* XCRemoteSwiftPackageReference "naveridlogin-ios-sp" */,
+				CD77A3172BE3836D0067CE63 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 			);
 			productRefGroup = CDDB378C2BE36225005FC526 /* Products */;
 			projectDirPath = "";
@@ -611,6 +615,14 @@
 				minimumVersion = 4.1.5;
 			};
 		};
+		CD77A3172BE3836D0067CE63 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -618,6 +630,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CD77A3142BE378B00067CE63 /* XCRemoteSwiftPackageReference "naveridlogin-ios-sp" */;
 			productName = "naveridlogin-ios-sp";
+		};
+		CD77A3182BE3836D0067CE63 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD77A3172BE3836D0067CE63 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 
