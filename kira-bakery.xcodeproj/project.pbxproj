@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */; };
+		CDDB37912BE36225005FC526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37902BE36225005FC526 /* ContentView.swift */; };
+		CDDB37932BE36227005FC526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37922BE36227005FC526 /* Assets.xcassets */; };
+		CDDB37962BE36227005FC526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37952BE36227005FC526 /* Preview Assets.xcassets */; };
+		CDDB37982BE36227005FC526 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37972BE36227005FC526 /* Persistence.swift */; };
+		CDDB379B2BE36227005FC526 /* kira_bakery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */; };
+		CDDB37A52BE36227005FC526 /* kira_bakeryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37A42BE36227005FC526 /* kira_bakeryTests.swift */; };
+		CDDB37AF2BE36227005FC526 /* kira_bakeryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37AE2BE36227005FC526 /* kira_bakeryUITests.swift */; };
+		CDDB37B12BE36227005FC526 /* kira_bakeryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37B02BE36227005FC526 /* kira_bakeryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDDB37A12BE36227005FC526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDDB37832BE36225005FC526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDDB378A2BE36225005FC526;
+			remoteInfo = "kira-bakery";
+		};
+		CDDB37AB2BE36227005FC526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDDB37832BE36225005FC526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDDB378A2BE36225005FC526;
+			remoteInfo = "kira-bakery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDDB378B2BE36225005FC526 /* kira-bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kira-bakery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryApp.swift; sourceTree = "<group>"; };
+		CDDB37902BE36225005FC526 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDDB37922BE36227005FC526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDB37952BE36227005FC526 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDDB37972BE36227005FC526 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CDDB379A2BE36227005FC526 /* kira_bakery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kira_bakery.xcdatamodel; sourceTree = "<group>"; };
+		CDDB37A02BE36227005FC526 /* kira-bakeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kira-bakeryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDB37A42BE36227005FC526 /* kira_bakeryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryTests.swift; sourceTree = "<group>"; };
+		CDDB37AA2BE36227005FC526 /* kira-bakeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kira-bakeryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDB37AE2BE36227005FC526 /* kira_bakeryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryUITests.swift; sourceTree = "<group>"; };
+		CDDB37B02BE36227005FC526 /* kira_bakeryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDB37882BE36225005FC526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB379D2BE36227005FC526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB37A72BE36227005FC526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDB37822BE36225005FC526 = {
+			isa = PBXGroup;
+			children = (
+				CDDB378D2BE36225005FC526 /* kira-bakery */,
+				CDDB37A32BE36227005FC526 /* kira-bakeryTests */,
+				CDDB37AD2BE36227005FC526 /* kira-bakeryUITests */,
+				CDDB378C2BE36225005FC526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDB378C2BE36225005FC526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB378B2BE36225005FC526 /* kira-bakery.app */,
+				CDDB37A02BE36227005FC526 /* kira-bakeryTests.xctest */,
+				CDDB37AA2BE36227005FC526 /* kira-bakeryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDB378D2BE36225005FC526 /* kira-bakery */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */,
+				CDDB37902BE36225005FC526 /* ContentView.swift */,
+				CDDB37922BE36227005FC526 /* Assets.xcassets */,
+				CDDB37972BE36227005FC526 /* Persistence.swift */,
+				CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */,
+				CDDB37942BE36227005FC526 /* Preview Content */,
+			);
+			path = "kira-bakery";
+			sourceTree = "<group>";
+		};
+		CDDB37942BE36227005FC526 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB37952BE36227005FC526 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDDB37A32BE36227005FC526 /* kira-bakeryTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB37A42BE36227005FC526 /* kira_bakeryTests.swift */,
+			);
+			path = "kira-bakeryTests";
+			sourceTree = "<group>";
+		};
+		CDDB37AD2BE36227005FC526 /* kira-bakeryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB37AE2BE36227005FC526 /* kira_bakeryUITests.swift */,
+				CDDB37B02BE36227005FC526 /* kira_bakeryUITestsLaunchTests.swift */,
+			);
+			path = "kira-bakeryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDB378A2BE36225005FC526 /* kira-bakery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDB37B42BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakery" */;
+			buildPhases = (
+				CDDB37872BE36225005FC526 /* Sources */,
+				CDDB37882BE36225005FC526 /* Frameworks */,
+				CDDB37892BE36225005FC526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kira-bakery";
+			productName = "kira-bakery";
+			productReference = CDDB378B2BE36225005FC526 /* kira-bakery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDDB379F2BE36227005FC526 /* kira-bakeryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDB37B72BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakeryTests" */;
+			buildPhases = (
+				CDDB379C2BE36227005FC526 /* Sources */,
+				CDDB379D2BE36227005FC526 /* Frameworks */,
+				CDDB379E2BE36227005FC526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDDB37A22BE36227005FC526 /* PBXTargetDependency */,
+			);
+			name = "kira-bakeryTests";
+			productName = "kira-bakeryTests";
+			productReference = CDDB37A02BE36227005FC526 /* kira-bakeryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDDB37A92BE36227005FC526 /* kira-bakeryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDB37BA2BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakeryUITests" */;
+			buildPhases = (
+				CDDB37A62BE36227005FC526 /* Sources */,
+				CDDB37A72BE36227005FC526 /* Frameworks */,
+				CDDB37A82BE36227005FC526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDDB37AC2BE36227005FC526 /* PBXTargetDependency */,
+			);
+			name = "kira-bakeryUITests";
+			productName = "kira-bakeryUITests";
+			productReference = CDDB37AA2BE36227005FC526 /* kira-bakeryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDB37832BE36225005FC526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CDDB378A2BE36225005FC526 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CDDB379F2BE36227005FC526 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CDDB378A2BE36225005FC526;
+					};
+					CDDB37A92BE36227005FC526 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CDDB378A2BE36225005FC526;
+					};
+				};
+			};
+			buildConfigurationList = CDDB37862BE36225005FC526 /* Build configuration list for PBXProject "kira-bakery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDB37822BE36225005FC526;
+			productRefGroup = CDDB378C2BE36225005FC526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDB378A2BE36225005FC526 /* kira-bakery */,
+				CDDB379F2BE36227005FC526 /* kira-bakeryTests */,
+				CDDB37A92BE36227005FC526 /* kira-bakeryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDB37892BE36225005FC526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDB37962BE36227005FC526 /* Preview Assets.xcassets in Resources */,
+				CDDB37932BE36227005FC526 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB379E2BE36227005FC526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB37A82BE36227005FC526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDB37872BE36225005FC526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDB379B2BE36227005FC526 /* kira_bakery.xcdatamodeld in Sources */,
+				CDDB37982BE36227005FC526 /* Persistence.swift in Sources */,
+				CDDB37912BE36225005FC526 /* ContentView.swift in Sources */,
+				CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB379C2BE36227005FC526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDB37A52BE36227005FC526 /* kira_bakeryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDB37A62BE36227005FC526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDB37AF2BE36227005FC526 /* kira_bakeryUITests.swift in Sources */,
+				CDDB37B12BE36227005FC526 /* kira_bakeryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDDB37A22BE36227005FC526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDDB378A2BE36225005FC526 /* kira-bakery */;
+			targetProxy = CDDB37A12BE36227005FC526 /* PBXContainerItemProxy */;
+		};
+		CDDB37AC2BE36227005FC526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDDB378A2BE36225005FC526 /* kira-bakery */;
+			targetProxy = CDDB37AB2BE36227005FC526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDDB37B22BE36227005FC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDDB37B32BE36227005FC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDB37B52BE36227005FC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kira-bakery/Preview Content\"";
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDB37B62BE36227005FC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kira-bakery/Preview Content\"";
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDDB37B82BE36227005FC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kira-bakery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kira-bakery";
+			};
+			name = Debug;
+		};
+		CDDB37B92BE36227005FC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kira-bakery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kira-bakery";
+			};
+			name = Release;
+		};
+		CDDB37BB2BE36227005FC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakeryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kira-bakery";
+			};
+			name = Debug;
+		};
+		CDDB37BC2BE36227005FC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9667HQFPGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sujeong.kira-bakeryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kira-bakery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDB37862BE36225005FC526 /* Build configuration list for PBXProject "kira-bakery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDB37B22BE36227005FC526 /* Debug */,
+				CDDB37B32BE36227005FC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDB37B42BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDB37B52BE36227005FC526 /* Debug */,
+				CDDB37B62BE36227005FC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDB37B72BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakeryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDB37B82BE36227005FC526 /* Debug */,
+				CDDB37B92BE36227005FC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDB37BA2BE36227005FC526 /* Build configuration list for PBXNativeTarget "kira-bakeryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDB37BB2BE36227005FC526 /* Debug */,
+				CDDB37BC2BE36227005FC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDDB379A2BE36227005FC526 /* kira_bakery.xcdatamodel */,
+			);
+			currentVersion = CDDB379A2BE36227005FC526 /* kira_bakery.xcdatamodel */;
+			path = kira_bakery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDDB37832BE36225005FC526 /* Project object */;
+}
