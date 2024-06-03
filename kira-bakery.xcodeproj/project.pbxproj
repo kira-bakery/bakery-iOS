@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD235F552BEA5AC3002E1DB1 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD235F542BEA5AC3002E1DB1 /* Bundle.swift */; };
 		CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */; };
 		CD77A3192BE3836D0067CE63 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3182BE3836D0067CE63 /* KakaoSDK */; };
 		CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */; };
-		CDDB37912BE36225005FC526 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37902BE36225005FC526 /* ContentView.swift */; };
+		CDDB37912BE36225005FC526 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37902BE36225005FC526 /* LoginView.swift */; };
 		CDDB37932BE36227005FC526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37922BE36227005FC526 /* Assets.xcassets */; };
 		CDDB37962BE36227005FC526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB37952BE36227005FC526 /* Preview Assets.xcassets */; };
 		CDDB37982BE36227005FC526 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37972BE36227005FC526 /* Persistence.swift */; };
@@ -38,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD235F542BEA5AC3002E1DB1 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		CDDB378B2BE36225005FC526 /* kira-bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kira-bakery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryApp.swift; sourceTree = "<group>"; };
-		CDDB37902BE36225005FC526 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDDB37902BE36225005FC526 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CDDB37922BE36227005FC526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDB37952BE36227005FC526 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDDB37972BE36227005FC526 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -103,11 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */,
-				CDDB37902BE36225005FC526 /* ContentView.swift */,
+				CDDB37902BE36225005FC526 /* LoginView.swift */,
 				CDDB37922BE36227005FC526 /* Assets.xcassets */,
 				CDDB37972BE36227005FC526 /* Persistence.swift */,
 				CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */,
 				CDDB37942BE36227005FC526 /* Preview Content */,
+				CD235F542BEA5AC3002E1DB1 /* Bundle.swift */,
 			);
 			path = "kira-bakery";
 			sourceTree = "<group>";
@@ -277,7 +280,8 @@
 			files = (
 				CDDB379B2BE36227005FC526 /* kira_bakery.xcdatamodeld in Sources */,
 				CDDB37982BE36227005FC526 /* Persistence.swift in Sources */,
-				CDDB37912BE36225005FC526 /* ContentView.swift in Sources */,
+				CDDB37912BE36225005FC526 /* LoginView.swift in Sources */,
+				CD235F552BEA5AC3002E1DB1 /* Bundle.swift in Sources */,
 				CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +444,9 @@
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kira-bakery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +477,9 @@
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kira-bakery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

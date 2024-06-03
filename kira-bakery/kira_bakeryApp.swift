@@ -10,10 +10,14 @@ import SwiftUI
 @main
 struct kira_bakeryApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
+    }
+    
+    
+    init() {
     }
 }
