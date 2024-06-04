@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD235F552BEA5AC3002E1DB1 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD235F542BEA5AC3002E1DB1 /* Bundle.swift */; };
+		CD235F572C0F4EFE002E1DB1 /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD235F562C0F4EFE002E1DB1 /* AgreementView.swift */; };
 		CD77A3162BE378B00067CE63 /* naveridlogin-ios-sp in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3152BE378B00067CE63 /* naveridlogin-ios-sp */; };
 		CD77A3192BE3836D0067CE63 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD77A3182BE3836D0067CE63 /* KakaoSDK */; };
 		CDDB378F2BE36225005FC526 /* kira_bakeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		CD235F542BEA5AC3002E1DB1 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		CD235F562C0F4EFE002E1DB1 /* AgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
 		CDDB378B2BE36225005FC526 /* kira-bakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kira-bakery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDB378E2BE36225005FC526 /* kira_bakeryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kira_bakeryApp.swift; sourceTree = "<group>"; };
 		CDDB37902BE36225005FC526 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				CDDB37992BE36227005FC526 /* kira_bakery.xcdatamodeld */,
 				CDDB37942BE36227005FC526 /* Preview Content */,
 				CD235F542BEA5AC3002E1DB1 /* Bundle.swift */,
+				CD235F562C0F4EFE002E1DB1 /* AgreementView.swift */,
 			);
 			path = "kira-bakery";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDB379B2BE36227005FC526 /* kira_bakery.xcdatamodeld in Sources */,
+				CD235F572C0F4EFE002E1DB1 /* AgreementView.swift in Sources */,
 				CDDB37982BE36227005FC526 /* Persistence.swift in Sources */,
 				CDDB37912BE36225005FC526 /* LoginView.swift in Sources */,
 				CD235F552BEA5AC3002E1DB1 /* Bundle.swift in Sources */,
